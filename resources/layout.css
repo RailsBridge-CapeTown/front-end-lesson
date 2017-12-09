@@ -36,14 +36,20 @@ a:hover {
 }
 
 #nav {
-	margin: 0 20px 0 0;
+	margin: 20px 20px 0 0;
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
+  width: 300px;
+  float: left;
 }
 
 #main {
 	margin: 0;
-  /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
+  padding-left: 15px;
+  /*  CHALLENGE 1: how could you get this to float to the right side of the screen? */
+  width: 600px;
+  float: right;
   /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
+  border-left: 1px solid;
 }
 
 #copyright {
